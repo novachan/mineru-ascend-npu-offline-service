@@ -1,0 +1,31 @@
+# Large offline assets: distribute through external storage or release artifacts.
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+wheelhouse/
+models-*/
+mineru-npu-offline/wheelhouse/
+mineru-npu-offline/models-*/
+
+# Local runtime files
+*.log
+tmp/
+output/
+outputs/
+.env
+.env.*
+!.env.example
+
+# Local publishing checklist; do not commit
+PUBLISHING.md
+
+# Python / editor / OS files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/

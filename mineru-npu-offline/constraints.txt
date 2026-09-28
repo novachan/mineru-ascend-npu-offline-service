@@ -1,0 +1,7 @@
+# Match the preinstalled vllm-ascend image runtime. These packages must not be
+# replaced by the offline MinerU installation.
+torch==2.10.0
+torchvision==0.25.0
+numpy==1.26.4
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86

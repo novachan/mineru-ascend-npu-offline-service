@@ -1,0 +1,7 @@
+{
+  "models-dir": {
+    "pipeline": "/opt/mineru-models",
+    "vlm": ""
+  },
+  "model-source": "local"
+}
