@@ -61,8 +61,8 @@ gzip -dc vllm-ascend-v0.20.2rc1.tar.gz | docker load
 约 3.2GB 的 wheelhouse 和模型目录不提交到 Git。请将真实地址补充到这里：
 
 ```text
-百度网盘地址：<BAIDU_PAN_URL>
-提取码：<BAIDU_PAN_CODE>
+链接: https://pan.baidu.com/s/1azSxp8GMrCZghVUwJwA5vA?pwd=zajj 
+提取码: zajj 
 文件名：mineru-npu-2.7.6-deployment.tar.gz
 SHA-256：25c025a9e44390440ed7a65365be1b838575527687876874df7c29e20fa29b3c
 ```
@@ -218,5 +218,3 @@ mineru-deploy-npu-ascend/
 ## 许可证和第三方依赖
 
 发布前请补充许可证，并核对 Ascend 基座镜像、MinerU、模型权重、wheelhouse 和其他依赖的再分发许可。不要提交驱动文件、生产配置、Token 或真实业务文档。
-
-公开提交前请先阅读 [PUBLISHING.md](./PUBLISHING.md)，避免提交记录暴露个人姓名或工具尾注。
